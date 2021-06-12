@@ -1,7 +1,7 @@
 package post
 
 type Post struct {
-	Title string
-	Body string
-	id string
+	Title string `json:"title,omitempty"`
+	Body  string `json:"body,omitempty"`
+	id    string 
 }
