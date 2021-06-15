@@ -1,0 +1,9 @@
+<h1>{{.PageTitle}}</h1>
+<ul>
+    {{range .Posts}}
+    <li class="done">
+        <h2>{{.Title}}</h2>
+        {{.Body}}
+    </li>
+    {{end}}
+</ul>
